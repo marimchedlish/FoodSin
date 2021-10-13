@@ -1,0 +1,87 @@
+.logo {
+    width: 194px;
+    margin-right: 120px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+    color: #2E266F;
+    font-weight: bold;
+    margin-right: 120px;
+  
+}
+
+.nav-li {
+   height: fit-content;
+   vertical-align: middle;
+   font-family: poppins;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+.first-div {
+    width: 1007px;
+    position: relative;
+}
+
+.second-div {
+    background-color: #FFAF00;
+    width: 100%;
+    height: 1210px;
+    
+}
+
+.food-img-2 {
+    position: absolute;
+    left: 700px;
+    top: 130px;
+    width: 922px;
+}
+
+
+
+.food-img-1 {
+    position: absolute;
+    left: 780px;
+    top: 140px;
+}
+
+.food-img-3 {
+    position: absolute;
+    left: 780px;
+    top: 545px;
+}
+
+.lettuce-img {
+    position: absolute;
+    left: 950px;
+    width: 500px;
+    top: -80px;
+}
+
+.first-page-section {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    margin-left: 160px;
+    margin-top: 260px;
+    font-size: 50px;
+    color: #2E266F;
+    font-weight: bold;
+    width: 550px;
+    font-family: poppins;
+}
+
