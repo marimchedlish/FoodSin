@@ -177,18 +177,22 @@ h2 {
 .burger-image1 {
     width: 550px;
     margin-right: 60px;
-    position: relative;
+    
 }
 .burger-img-div {
     margin-top: 200px;
-    
+    position: relative;
 }
 .dots {
-    position: absolute;
-    top: 50px;
-    
+   position: absolute;
+   bottom: 200px;
+   left: -150px;
+   z-index: -1;
 }
 .dots1 {
     position: absolute;
-    left: 500px;
+    top: 170px;
+    left: 780px; 
+    z-index: -1;
 }
+    
