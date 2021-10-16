@@ -254,3 +254,7 @@ h2 {
     background-color: white;
     border: none;
 }
+
+.book-button:hover {
+    background-color: #E8E2D4;
+}
