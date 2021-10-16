@@ -177,6 +177,7 @@ h2 {
 .burger-image1 {
     width: 550px;
     margin-right: 60px;
+    position: relative;
     
 }
 .burger-img-div {
@@ -195,4 +196,49 @@ h2 {
     left: 780px; 
     z-index: -1;
 }
-    
+.box-div {
+    position: absolute;
+    bottom: 2px;
+    background-color: rgb(255, 175, 0);
+    width: 550px;
+    height: 230px;
+    opacity: 50%;
+}
+.h3-div {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 350px;
+
+}
+.box-div-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Poppins;
+    margin-left: 20px;
+}
+.burger-p {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: Poppins;
+    color: white;
+}
+.karachi2 {
+   font-size: 20px;
+   color: white;
+   font-family: Poppins;
+   display: inline-block;
+}
+
+.location-button-div {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.location-logo {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
