@@ -113,6 +113,11 @@ h1 {
     border: none;
 }
 
+.search-bar:focus {
+    background-color: #EEE8E8;
+    outline: none;
+}
+
 .search-bar::placeholder {
     padding-left: 20px;
     font-size: 14px;
@@ -209,7 +214,6 @@ h2 {
     position: absolute;
     left: 20px;
     top: 350px;
-
 }
 .box-div-title {
     color: white;
@@ -256,5 +260,14 @@ h2 {
 }
 
 .book-button:hover {
-    background-color: #E8E2D4;
+    background-color: #EEEEEE;
+}
+
+.box-div:nth-col {
+    position: absolute;
+    bottom: 2px;
+    background-color: rgb(255, 175, 0);
+    width: 550px;
+    height: 230px;
+    opacity: 69%;
 }
