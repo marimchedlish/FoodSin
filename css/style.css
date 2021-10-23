@@ -271,3 +271,20 @@ h2 {
     height: 230px;
     opacity: 69%;
 }
+
+.h3-div1 {
+    display: inline-block;
+    position: absolute;
+    left: 614px;
+    top: 350px;  
+}
+
+.box-div1 {
+    position: absolute;
+    bottom: 2px;
+    background-color: rgb(255, 175, 0);
+    width: 550px;
+    height: 230px;
+    opacity: 69%;
+    left: 614px;
+}
