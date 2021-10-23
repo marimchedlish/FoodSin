@@ -214,3 +214,13 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Bree Serif';
+    src: url('../fonts/newfont/BreeSerif-Regular.woff2') format('woff2'),
+        url('../fonts/newfont/BreeSerif-Regular.woff') format('woff'),
+        url('../fonts/newfont/BreeSerif-Regular.ttf') format('truetype'),
+        url('../fonts/newfont/BreeSerif-Regular.svg#BreeSerif-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
