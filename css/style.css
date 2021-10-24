@@ -381,7 +381,7 @@ body {
 
 .last-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
@@ -420,4 +420,121 @@ body {
     font-weight: 600;
     border-radius: 50px 50px 50px 50px;
 
+}
+
+.last-section-divier {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    font-family: Poppins;
+    color: #2E266F;
+}
+
+.second-form {
+    background-color: white;
+    width: 470px;
+    height: 80px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.search-bar-second {
+    width: 470px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+}
+
+.search-bar-second:focus {
+    background-color: #EEE8E8;
+    outline: none;
+}
+
+.search-bar-second::placeholder {
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Poppins;
+    color: #2E266F;
+}
+
+.second-button {
+    width: 60px;
+    height: 60px;
+    outline: none;
+    border: none;
+    background-color: #FFAF00;
+    color: white;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 600;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+
+.fa-arrow-right {
+    margin: 0 auto;
+}
+
+.contactsectiontitle {
+    margin-top: 100px;
+    width: 700px;
+    font-size: 40px;
+    font-family: Poppins;
+    color: #273164;
+    font-weight: bold;
+    text-align: center;
+}
+
+.neww {
+    margin-top: 10px;
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+.last-footer-paragraph {
+    font-family: Poppins;
+    color: #273164;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.p-new {
+    margin-bottom: 100px;
+}
+
+.copyright {
+    font-family: Poppins;
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
 }
