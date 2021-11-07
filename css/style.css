@@ -1,16 +1,22 @@
 .logo {
-    width: 194px;
+    width: 154px;
     margin-right: 120px;
     margin-left: 160px;
     margin-top: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 600px;
 }
-
 .nav-ul {
     display: flex;
     flex-direction: row;
@@ -679,4 +685,11 @@ footer {
     
 }
 
+.fa-bars {
+    color: #FFAF00;
+}
 
+.toggle {
+    width: fit-content;
+    display: none;
+}
