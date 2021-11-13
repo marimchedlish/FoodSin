@@ -1,9 +1,45 @@
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
     .toggle {
         display: block;
+        position: relative;
     }
 
     nav {
-        display: none;
+        display: none; 
+    }
+
+    nav.active {
+        display: block;
+    }
+}
+@media (max-width: 1400px) {
+    .first-page-section {
+        width: 1400px;
+    }
+
+    .first-div {
+        width: 600px;
+    }
+
+    .second-div {
+        width: 800px;
+    }
+    .food-img-2 {
+        width: 600px;
+    }
+
+    .lettuce-img {
+        width: 400px;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        left: 462px;
+    }
+
+    .nav-li {
+        margin-bottom: 10px;
     }
 }
