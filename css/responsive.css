@@ -42,4 +42,33 @@
     .nav-li {
         margin-bottom: 10px;
     }
+    h1 {
+        font-size: 30px;
+        width: 400px;
+    }
+    
+    .search-bar {
+        width: 250px;
+    }
+
+    .first-form {
+        width: 250px;
+    }
+
+    h2 {
+        font-size: 30px;
+        width: 400px;
+        margin-left: 10px;
+    }
+    .left-p {
+        font-size: 15px;
+        width: 400px;
+        margin-left: 50px;
+
+    }
+
+    .second-section-first-div {
+        width: 1000px;
+    }
+
 }
