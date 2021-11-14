@@ -1,3 +1,4 @@
+
 @media (max-width: 1400px) {
     .toggle {
         display: block;
@@ -33,7 +34,10 @@
     }
 
     .nav-ul {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         position: absolute;
         top: 100px;
         left: 462px;
@@ -83,7 +87,8 @@
     }
 
     .foods-div {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 
     .last-section {
@@ -200,8 +205,12 @@
 }
 
 .burger-img-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 .box-div {
     width: 350px;
@@ -243,10 +252,15 @@
     margin: 0 auto;
 }
 .foods-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     max-width: 100%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 }
@@ -331,7 +345,9 @@
         }
 
         .foods-div {
-            justify-content: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
         }
     }
 
@@ -402,5 +418,4 @@
             font-size: 12px;
         }
         }
-
 
