@@ -71,4 +71,42 @@
         width: 1000px;
     }
 
+    .seemorediv {
+        display: none;
+    }
+
+    .mobile {
+        width: 500px;
+    }
+    .appdiv {
+        width: 100%;
+    }
+
+    .foods-div {
+        flex-wrap: wrap;
+    }
+
+    .last-section {
+        width: 100%;
+    }
+
+    .last-section-right-img {
+        display: none;
+    }
+
+    .first-page-section {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .third-section-first-div {
+        width: 100%;  
+    }
+
+    .last-section-divider {
+        
+    }
 }
